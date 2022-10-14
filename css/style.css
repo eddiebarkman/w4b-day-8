@@ -9,7 +9,39 @@ h1{
 }
 
 .text-columns{
-    column-count:3;
+    column-count:2;
     column-gap: 50px;
     column-rule: 1px solid orange;
+}
+/*Clear Fix*/
+.row:after{
+content:"";
+display: table;
+}
+.column-1{
+    float:left;
+    width:99%;
+    padding:1em
+}
+.column-2{
+    float:left;
+    width:47%;
+    padding:1em
+}
+
+.column-3{
+    float:left;
+    width:30%;
+    padding:1em
+}
+
+.column-4{
+    float:left;
+    width:22%;
+    padding:1em;
+
+}
+
+.center-text{
+    text-align: center;
 }
